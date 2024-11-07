@@ -26,3 +26,5 @@ scale = Vector2(0.175, 0.172083)
 texture = ExtResource("4_xsqrb")
 
 [node name="Enemies" type="Node" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
