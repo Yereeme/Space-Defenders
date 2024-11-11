@@ -1,2 +1,10 @@
-Sprite2D
+HBoxContainer
+BoxContainer
+Control
+MultiplayerSpawner
 Node
+Button
+LineEdit
+Label
+VBoxContainer
+Sprite2D
