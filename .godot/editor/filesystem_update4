@@ -1,6 +1,7 @@
-res://peer_to_peer.tscn
-res://multiplayer.gd
-res://peer_to_peer.gd
-res://multiplayer.tscn
 res://Game.tscn
+res://wave_manager.gd
 res://Connection/multiplayer.tscn
+res://Enemies/Scripts/enemy.tscn
+res://Enemies/Scripts/enemy_bullet.tscn
+res://Enemies/enemy_bullet.gd
+res://Enemies/enemy.gd
