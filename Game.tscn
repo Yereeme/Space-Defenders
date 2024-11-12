@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bnx5v0l5w3kq5" path="res://Background/Space Background.png" id="1_vb56k"]
 [ext_resource type="Texture2D" uid="uid://cou577hsu7v75" path="res://Background/xetuna-planet.png" id="2_1shq1"]
-[ext_resource type="Texture2D" uid="uid://drw1eetuknjl0" path="res://Players/Player 2.png" id="4_xsqrb"]
+[ext_resource type="PackedScene" uid="uid://bptq23qhwwfqb" path="res://Player_2.tscn" id="3_gucq4"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -16,15 +16,6 @@ position = Vector2(353.042, 152.053)
 scale = Vector2(0.334144, 0.315224)
 texture = ExtResource("2_1shq1")
 
-[node name="Player 1" type="Node" parent="."]
-
-[node name="Player 2" type="Node" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="Player 2"]
-position = Vector2(138, 552)
-scale = Vector2(0.175, 0.172083)
-texture = ExtResource("4_xsqrb")
-
 [node name="Enemies" type="Node" parent="."]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Player 2" parent="." instance=ExtResource("3_gucq4")]

@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1731384925
 Game.tscn::PackedScene::5100048291580464641::1731373526::0::1::::<><>::uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://drw1eetuknjl0::::res://Players/Player 2.png
 icon.svg::CompressedTexture2D::7978215500813854408::1731043011::1731265462::1::::<><>::
@@ -22,3 +23,31 @@ Players Lazerbeam.png::CompressedTexture2D::7218127805031766022::1731043011::173
 ::res://Sounds/::1731265462
 414888__matrixxx__retro-laser-shot-04.wav::AudioStreamWAV::609361666456770103::1731043011::1731265462::1::::<><>::
 495019__vladzaichyk__space_line.mp3::AudioStreamMP3::3807757024884035012::1731043011::1731265462::1::::<><>::
+=======
+::res://::1731384364
+Game.tscn::PackedScene::5100048291580464641::1731384392::0::1::::<><>::uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://bptq23qhwwfqb::::res://Player_2.tscn
+icon.svg::CompressedTexture2D::7978215500813854408::1730826968::1730826981::1::::<><>::
+Player_2.tscn::PackedScene::3479497699629411237::1731384431::0::1::::<><>::uid://drw1eetuknjl0::::res://Players/Player 2.png<>res://Player_2.gd
+Player_2.gd::GDScript::-1::1731384328::0::1::::<>CharacterBody2D<>::
+::res://Background/::1730839577
+Space Background.png::CompressedTexture2D::3348216682256070566::1730829441::1730831835::1::::<><>::
+xetuna-planet.png::CompressedTexture2D::5798653080994484594::1730836404::1730836944::1::::<><>::
+::res://Blasters/::1730827175
+::res://Connection/::1731384364
+multiplayer.gd::GDScript::-1::1731288682::0::1::::<>Node<>::
+multiplayer.tscn::PackedScene::5143570892802404392::1731384364::0::1::::<><>::res://Connection/multiplayer.gd
+::res://Effects/::1730839224
+Explosion.jpg::CompressedTexture2D::8593580593194158200::1730839063::1730839224::1::::<><>::
+::res://Enemies/::1730839450
+Enemies.jpg::CompressedTexture2D::1803717710746165969::1730833337::1730836204::1::::<><>::
+::res://Items/::1730836204
+Heart.png::CompressedTexture2D::1195721653531228297::1730831895::1730836204::1::::<><>::
+Lazerbeam item.png::CompressedTexture2D::6729426499369015420::1730832372::1730836204::1::::<><>::
+::res://Players/::1730840237
+Player 2.png::CompressedTexture2D::8399474728869994491::1730833457::1730836204::1::::<><>::
+Players Lazer shoot.png::CompressedTexture2D::9155971158447669974::1730833016::1730836204::1::::<><>::
+Players Lazerbeam.png::CompressedTexture2D::7218127805031766022::1730833482::1730836204::1::::<><>::
+::res://Sounds/::1730840116
+414888__matrixxx__retro-laser-shot-04.wav::AudioStreamWAV::609361666456770103::1730839786::1730840116::1::::<><>::
+495019__vladzaichyk__space_line.mp3::AudioStreamMP3::3807757024884035012::1730839751::1730840116::1::::<><>::
+>>>>>>> origin/main
