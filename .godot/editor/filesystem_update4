@@ -1,12 +1,4 @@
-res://Game.tscn
-res://wave_manager.gd
 res://Connection/multiplayer.tscn
-<<<<<<< HEAD
+res://Players.gd
 res://Player_2.tscn
-res://Player_2.gd
-=======
-res://Enemies/Scripts/enemy.tscn
-res://Enemies/Scripts/enemy_bullet.tscn
-res://Enemies/enemy_bullet.gd
-res://Enemies/enemy.gd
->>>>>>> origin/YereemEnemiesmechanics
+res://Connection/multiplayer.gd
