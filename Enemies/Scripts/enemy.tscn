@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://chvjla11ng42j"]
+
+[ext_resource type="Script" path="res://Enemies/enemy.gd" id="1_my1yn"]
+[ext_resource type="Texture2D" uid="uid://0xy75bvp32jd" path="res://Enemies/Enemies.jpg" id="2_b4gif"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lsni7"]
+size = Vector2(351, 454.25)
+
+[node name="Enemy" type="CharacterBody2D"]
+scale = Vector2(0.279542, 0.279542)
+collision_layer = 262144
+collision_mask = 0
+script = ExtResource("1_my1yn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_b4gif")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.5, -7.125)
+shape = SubResource("RectangleShape2D_lsni7")
+
+[node name="ShootingTimer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
+
+[node name="Muzzle" type="Marker2D" parent="."]
+position = Vector2(-264.719, 0)
+
+[connection signal="timeout" from="ShootingTimer" to="." method="_on_shooting_timer_timeout"]

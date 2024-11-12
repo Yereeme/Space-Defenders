@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 CollisionShape2D
+=======
+Node2D
+Marker2D
+Timer
+CollisionShape2D
+Sprite2D
+>>>>>>> origin/YereemEnemiesmechanics
 CharacterBody2D
 HBoxContainer
 BoxContainer
@@ -9,4 +17,3 @@ Button
 LineEdit
 Label
 VBoxContainer
-Sprite2D
