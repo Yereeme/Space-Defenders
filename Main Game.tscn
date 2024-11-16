@@ -1,3 +1,22 @@
-[gd_scene format=3 uid="uid://c4hus6jiwsjon"]
+[gd_scene load_steps=4 format=3 uid="uid://c4hus6jiwsjon"]
+
+[ext_resource type="Texture2D" uid="uid://bnx5v0l5w3kq5" path="res://Background/Space Background.png" id="1_ee5sr"]
+[ext_resource type="Texture2D" uid="uid://cou577hsu7v75" path="res://Background/xetuna-planet.png" id="2_q6s5p"]
+[ext_resource type="PackedScene" uid="uid://bptq23qhwwfqb" path="res://Players/Player_2.tscn" id="3_2cdu0"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(574, 333)
+scale = Vector2(1.325, 1.39259)
+texture = ExtResource("1_ee5sr")
+
+[node name="Planet" type="Sprite2D" parent="Background"]
+position = Vector2(344.906, 136.436)
+scale = Vector2(0.517689, 0.462132)
+texture = ExtResource("2_q6s5p")
+
+[node name="Player 2" parent="." instance=ExtResource("3_2cdu0")]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+autoplay = true

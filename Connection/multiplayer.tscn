@@ -8,7 +8,6 @@ script = ExtResource("1_2jnut")
 [node name="Level" type="Node" parent="."]
 
 [node name="LevelSpawner" type="MultiplayerSpawner" parent="."]
-_spawnable_scenes = PackedStringArray("res://Game.tscn")
 spawn_path = NodePath("../Level")
 spawn_limit = 1
 

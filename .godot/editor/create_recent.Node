@@ -1,12 +1,10 @@
-<<<<<<< HEAD
+AudioStreamPlayer2D
+Sprite2D
 CollisionShape2D
-=======
 Node2D
 Marker2D
 Timer
 CollisionShape2D
-Sprite2D
->>>>>>> origin/YereemEnemiesmechanics
 CharacterBody2D
 HBoxContainer
 BoxContainer
@@ -15,5 +13,3 @@ MultiplayerSpawner
 Node
 Button
 LineEdit
-Label
-VBoxContainer
