@@ -1,16 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731795887
+::res://::1731892482
 icon.svg::CompressedTexture2D::7978215500813854408::1731794959::1731795131::1::::<><>::
-Main Game.tscn::PackedScene::6824016603833872445::1731795748::0::1::::<><>::uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://bptq23qhwwfqb::::res://Players/Player_2.tscn<>uid://buirg4mw7fcvk::::res://Sounds/Game Music.mp3
+Main Game.tscn::PackedScene::6824016603833872445::1731892341::0::1::::<><>::uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://bptq23qhwwfqb::::res://Players/Player_2.tscn<>uid://cnys56o6rnjd::::res://Sounds/Game Music.wav<>uid://drw1eetuknjl0::::res://Players/Player 2.png
 wave_manager.gd::GDScript::-1::1731794959::0::1::::<>Node2D<>::
-::res://Background/::1731795131
+::res://Background/::1731892242
+Asteriods.png::CompressedTexture2D::4628071043599830928::1731892200::1731892242::1::::<><>::
 Space Background.png::CompressedTexture2D::3348216682256070566::1731794958::1731795131::1::::<><>::
 xetuna-planet.png::CompressedTexture2D::5798653080994484594::1731794958::1731795131::1::::<><>::
-::res://Connection/::1731795667
+::res://Connection/::1731892294
 multiplayer.gd::GDScript::-1::1731795500::0::1::::<>Node<>::
-multiplayer.tscn::PackedScene::5143570892802404392::1731795667::0::1::::<><>::res://Connection/multiplayer.gd
-::res://Effects/::1731795131
+multiplayer.tscn::PackedScene::5143570892802404392::1731892294::0::1::::<><>::res://Connection/multiplayer.gd
+::res://Effects/::1731892482
 Explosion.jpg::CompressedTexture2D::8593580593194158200::1731794958::1731795131::1::::<><>::
+Invisibility.png::CompressedTexture2D::7140270154202134967::1731892415::1731892501::1::::<><>::
 ::res://Enemies/::1731795131
 Enemies.jpg::CompressedTexture2D::1803717710746165969::1731794958::1731795131::1::::<><>::
 enemy.gd::GDScript::-1::1731794958::0::1::::<>CharacterBody2D<>::
@@ -21,13 +23,15 @@ enemy_bullet.tscn::PackedScene::2312522534824229057::1731794958::0::1::::<><>::r
 ::res://Items/::1731795131
 Heart.png::CompressedTexture2D::1195721653531228297::1731794958::1731795131::1::::<><>::
 Lazerbeam item.png::CompressedTexture2D::6729426499369015420::1731794958::1731795131::1::::<><>::
-::res://Players/::1731795667
+::res://Players/::1731892294
 Player 2.png::CompressedTexture2D::8399474728869994491::1731794958::1731795132::1::::<><>::
 Players Lazer shoot.png::CompressedTexture2D::9155971158447669974::1731794959::1731795131::1::::<><>::
 Players Lazerbeam.png::CompressedTexture2D::7218127805031766022::1731794959::1731795131::1::::<><>::
-Player_2.tscn::PackedScene::3479497699629411237::1731795667::0::1::::<><>::uid://drw1eetuknjl0::::res://Players/Player 2.png<>res://Players/Player Script/Players.gd
+Player_2.tscn::PackedScene::3479497699629411237::1731892294::0::1::::<><>::uid://drw1eetuknjl0::::res://Players/Player 2.png<>res://Players/Player Script/Players.gd
 ::res://Players/Player Script/::1731795312
 Players.gd::GDScript::-1::1731794958::0::1::::<>CharacterBody2D<>::
-::res://Sounds/::1731795704
-Game Music.mp3::AudioStreamMP3::3807757024884035012::1731794959::1731795704::1::::<><>::
-Shoot Lazer.wav::AudioStreamWAV::609361666456770103::1731794959::1731795690::1::::<><>::
+::res://Sounds/::1731892254
+Death Sound Explosion.wav::AudioStreamWAV::8861917249285161025::1731890810::1731891303::1::::<><>::
+Enemies Lazer Shot.wav::AudioStreamWAV::8795296329506920925::1731891087::1731891320::1::::<><>::
+Game Music.wav::AudioStreamWAV::168705574463172193::1731892074::1731892254::1::::<><>::
+Player Lazer Shot.wav::AudioStreamWAV::5399851132001988911::1731891163::1731891281::1::::<><>::
