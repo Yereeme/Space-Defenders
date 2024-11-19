@@ -17,4 +17,3 @@ texture = ExtResource("1_akfgr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(90, 561)
 shape = SubResource("RectangleShape2D_de1mc")
-disabled = true
