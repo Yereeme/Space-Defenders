@@ -1,16 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732162168
+::res://::1732227665
 Game.gd::GDScript::-1::1732157055::0::1::::<>Node2D<>::
-Game.tscn::PackedScene::6824016603833872445::1732161265::0::1::::<><>::res://Game.gd<>uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://bptq23qhwwfqb::::res://Players/Players.tscn<>uid://cnys56o6rnjd::::res://Sounds/Game Music.wav<>uid://drw1eetuknjl0::::res://Players/Player 2.png
+Game.tscn::PackedScene::6824016603833872445::1732227665::0::1::::<><>::res://Game.gd<>uid://bnx5v0l5w3kq5::::res://Background/Space Background.png<>uid://cou577hsu7v75::::res://Background/xetuna-planet.png<>uid://bptq23qhwwfqb::::res://Players/Players.tscn<>uid://cnys56o6rnjd::::res://Sounds/Game Music.wav<>uid://drw1eetuknjl0::::res://Players/Players.png
 icon.svg::CompressedTexture2D::7978215500813854408::1731794959::1732040674::1::::<><>::
 wave_manager.gd::GDScript::-1::1731794959::0::1::::<>Node2D<>::
 ::res://Background/::1732040674
 Asteriods.png::CompressedTexture2D::4628071043599830928::1731892200::1732040674::1::::<><>::
 Space Background.png::CompressedTexture2D::3348216682256070566::1731794958::1732040674::1::::<><>::
 xetuna-planet.png::CompressedTexture2D::5798653080994484594::1731794958::1732040674::1::::<><>::
-::res://Connection/::1732161265
+::res://Connection/::1732227615
 multiplayer.gd::GDScript::-1::1732160476::0::1::::<>Node<>::
-multiplayer.tscn::PackedScene::5143570892802404392::1732161265::0::1::::<><>::res://Connection/multiplayer.gd
+multiplayer.tscn::PackedScene::5143570892802404392::1732227615::0::1::::<><>::res://Connection/multiplayer.gd
 ::res://Effects/::1732162168
 Explosion.jpg::CompressedTexture2D::8593580593194158200::1731794958::1732040675::1::::<><>::
 ::res://Enemies/::1732045816
@@ -18,21 +18,21 @@ Enemies.png::CompressedTexture2D::1421221884032747960::1732045650::1732045743::1
 Enemy Lazer.png::CompressedTexture2D::5143282719427912938::1732045433::1732045445::1::::<><>::
 enemy.gd::GDScript::-1::1731896290::0::1::::<>CharacterBody2D<>::
 enemy_bullet.gd::GDScript::-1::1731896290::0::1::::<>CharacterBody2D<>::
-::res://Enemies/Scripts/::1732161265
-enemy.tscn::PackedScene::5308081343719414611::1732161265::0::1::::<><>::res://Enemies/enemy.gd<>uid://uipk1g80jm13::::res://Enemies/Enemies.png<>uid://dxkril3vn3mgr::::res://Sounds/Enemies Lazer Shot.wav
-enemy_bullet.tscn::PackedScene::2312522534824229057::1732161265::0::1::::<><>::res://Enemies/enemy_bullet.gd<>uid://cfjpd543o2eog::::res://Enemies/Enemy Lazer.png<>uid://dxkril3vn3mgr::::res://Sounds/Enemies Lazer Shot.wav
+::res://Enemies/Scripts/::1732227616
+enemy.tscn::PackedScene::5308081343719414611::1732227616::0::1::::<><>::res://Enemies/enemy.gd<>uid://uipk1g80jm13::::res://Enemies/Enemies.png<>uid://dxkril3vn3mgr::::res://Sounds/Enemies Lazer Shot.wav
+enemy_bullet.tscn::PackedScene::2312522534824229057::1732227616::0::1::::<><>::res://Enemies/enemy_bullet.gd<>uid://cfjpd543o2eog::::res://Enemies/Enemy Lazer.png<>uid://dxkril3vn3mgr::::res://Sounds/Enemies Lazer Shot.wav
 ::res://Items/::1732162168
 Heart.png::CompressedTexture2D::1195721653531228297::1731794958::1732040674::1::::<><>::
 Invisibility.png::CompressedTexture2D::7140270154202134967::1731892415::1732162168::1::::<><>::
-::res://Players/::1732162136
-Laser.tscn::PackedScene::742495266226933893::1732161265::0::1::::<><>::res://Players/Player Script/Laser.gd<>uid://d3phrin7rxa7o::::res://Players/Players Lazer shoot.png<>uid://ci6y02whusux8::::res://Sounds/Player Lazer Shot.wav
-LaserWeapon.tscn::PackedScene::2420512433879527841::1732161265::0::1::::<><>::res://Players/Player Script/Laser_Weapon.gd
-Player 2.png::CompressedTexture2D::8399474728869994491::1731794958::1732040674::1::::<><>::
+::res://Players/::1732227665
+Laser.tscn::PackedScene::742495266226933893::1732227616::0::1::::<><>::res://Players/Player Script/Laser.gd<>uid://d3phrin7rxa7o::::res://Players/Players Lazer shoot.png<>uid://ci6y02whusux8::::res://Sounds/Player Lazer Shot.wav
+LaserWeapon.tscn::PackedScene::2420512433879527841::1732227615::0::1::::<><>::res://Players/Player Script/Laser_Weapon.gd
 Players Lazer shoot.png::CompressedTexture2D::9155971158447669974::1731794959::1732040674::1::::<><>::
-Players.tscn::PackedScene::3479497699629411237::1732161265::0::1::::<><>::uid://drw1eetuknjl0::::res://Players/Player 2.png<>res://Players/Player Script/Players.gd<>uid://baqrqr8owyv6p::::res://Players/LaserWeapon.tscn
-::res://Players/Player Script/::1732161265
+Players.png::CompressedTexture2D::8399474728869994491::1731794958::1732227666::1::::<><>::
+Players.tscn::PackedScene::3479497699629411237::1732227665::0::1::::<><>::uid://drw1eetuknjl0::::res://Players/Players.png<>res://Players/Player Script/Players.gd<>uid://baqrqr8owyv6p::::res://Players/LaserWeapon.tscn
+::res://Players/Player Script/::1732227494
 Laser.gd::GDScript::-1::1732161029::0::1::::<>Area2D<>::
-Laser_Weapon.gd::GDScript::-1::1732161265::0::1::::<>Node2D<>::
+Laser_Weapon.gd::GDScript::-1::1732227494::0::1::::<>Node2D<>::
 Players.gd::GDScript::-1::1732159663::0::1::::<>CharacterBody2D<>::
 ::res://Sounds/::1732043423
 8-bit Game Over.wav::AudioStreamWAV::1726659318407035508::1732033745::1732040675::1::::<><>::

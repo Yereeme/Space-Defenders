@@ -6,6 +6,6 @@ extends Node2D
 var laser_scene := load("res://Players/Laser.tscn")
 
 func shoot():
-	var laser = laser_scene.instance()
+	var laser = laser_scene.instantiate()
 	laser.global_position = self.global_position
 	get_node("/root/Game").add_child(laser)

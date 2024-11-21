@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cou577hsu7v75" path="res://Background/xetuna-planet.png" id="3_edr7j"]
 [ext_resource type="PackedScene" uid="uid://bptq23qhwwfqb" path="res://Players/Players.tscn" id="4_yaibv"]
 [ext_resource type="AudioStream" uid="uid://cnys56o6rnjd" path="res://Sounds/Game Music.wav" id="5_v3vho"]
-[ext_resource type="Texture2D" uid="uid://drw1eetuknjl0" path="res://Players/Player 2.png" id="6_is43n"]
+[ext_resource type="Texture2D" uid="uid://drw1eetuknjl0" path="res://Players/Players.png" id="6_is43n"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_fputq"]
 

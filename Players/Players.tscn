@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bptq23qhwwfqb"]
 
-[ext_resource type="Texture2D" uid="uid://drw1eetuknjl0" path="res://Players/Player 2.png" id="1_akfgr"]
+[ext_resource type="Texture2D" uid="uid://drw1eetuknjl0" path="res://Players/Players.png" id="1_akfgr"]
 [ext_resource type="Script" path="res://Players/Player Script/Players.gd" id="1_ikgy2"]
 [ext_resource type="PackedScene" uid="uid://baqrqr8owyv6p" path="res://Players/LaserWeapon.tscn" id="3_oyr8h"]
 

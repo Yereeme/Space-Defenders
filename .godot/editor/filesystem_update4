@@ -1,4 +1,5 @@
 res://Game.tscn
+res://Players/Player Script/Laser_Weapon.gd
 res://Players/Players.tscn
 res://Players/LaserWeapon.tscn
 res://Connection/multiplayer.tscn
