@@ -111,5 +111,3 @@ shape = SubResource("WorldBoundaryShape2D_m38bi")
 position = Vector2(1153, 340)
 rotation = -1.5708
 shape = SubResource("WorldBoundaryShape2D_tbfd0")
-
-[node name="LazerContainer" type="Node2D" parent="."]
