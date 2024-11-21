@@ -1,7 +1,7 @@
 extends Node
 
 const PORT = 4433
-const LEVEL_REF: String = "res://Main Game.tscn"
+const LEVEL_REF: String = "res://Game.tscn"
 
 func _ready():
 	# Start paused

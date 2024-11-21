@@ -1,3 +1,16 @@
+res://Players/Players.tscn
+res://Game.gd
 res://Main Game.tscn
-res://Players/Player_2.tscn
 res://Connection/multiplayer.tscn
+res://Players/Lazer.tscn
+res://Enemies/Scripts/enemy_bullet.tscn
+res://Enemies/Scripts/enemy.tscn
+res://Players/Player Script/Players.gd
+res://Players/Player Script/Lazer.gd
+res://Players/LaserWeapon.tscn
+res://Players/laser_weapon.gd
+res://Players/Laser.tscn
+res://Game.tscn
+res://Players/Player Script/Laser.gd
+res://Connection/multiplayer.gd
+res://Players/Player Script/Laser_Weapon.gd
