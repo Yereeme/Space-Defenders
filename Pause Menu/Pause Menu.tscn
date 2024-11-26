@@ -142,6 +142,7 @@ script = ExtResource("1_51rbe")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_epcet")
+layout_mode = 0
 offset_left = 1.0
 offset_top = -3.0
 offset_right = 1155.0

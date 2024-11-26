@@ -1,0 +1,7 @@
+res://Items/extra_lives.tscn
+res://Pause Menu/PauseMenu.gdshader
+res://Items/invisibility.tscn
+res://Connection/multiplayer.tscn
+res://Game.tscn
+res://Pause Menu/Pause Menu.tscn
+res://Connection/WindowControl.gd
