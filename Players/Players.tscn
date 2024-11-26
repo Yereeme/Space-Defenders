@@ -8,6 +8,8 @@
 size = Vector2(72, 68)
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
+collision_mask = 24
 script = ExtResource("1_ikgy2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
